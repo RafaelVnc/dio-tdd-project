@@ -1,4 +1,4 @@
-# TDD Project
+# dio-tdd-project
 
 ## O que é TDD?
 TDD é uma sigla para `Test Driven Development`, ou Desenvolvimento Orientado a Testes. A ideia do TDD é que você trabalhe em ciclos.
@@ -16,7 +16,7 @@ A proposta do TDD é que você codifique antes mesmo do código existir, isso no
 
 # Store API
 ## Resumo do projeto
-Este documento traz informações do desenvolvimento de uma API em FastAPI a partir do TDD.
+Este documento traz informações do desenvolvimento de uma API em FastAPI a partir do TDD. Foi elaborado e realizado durante o Python AI Backend Developer Bootcamp por [digitalinnovationone](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjA1a6LjuOFAxVgr5UCHUirCaYQjBB6BAgMEAE&url=https%3A%2F%2Fweb.dio.me%2F&usg=AOvVaw0dwYA1hr1DsZZOmIkcAAcc&opi=89978449) e VIVO.
 
 ## Objetivo
 Essa aplicação tem como objetivo principal trazer conhecimentos sobre o TDD, na prática, desenvolvendo uma API com o Framework Python, FastAPI. Utilizando o banco de dados MongoDB, para validações o Pydantic, para os testes Pytest e entre outras bibliotecas.
@@ -158,20 +158,9 @@ sequenceDiagram
     Note right of Client: Status Code: 204 - No content
 ```
 
-## Desafio Final
-- Create
-    - Mapear uma exceção, caso dê algum erro de inserção e capturar na controller
-- Update
-    - Modifique o método de patch para retornar uma exceção de Not Found, quando o dado não for encontrado
-    - a exceção deve ser tratada na controller, pra ser retornada uma mensagem amigável pro usuário
-    - ao alterar um dado, a data de updated_at deve corresponder ao time atual, permitir modificar updated_at também
-- Filtros
-    - cadastre produtos com preços diferentes
-    - aplique um filtro de preço, assim: (price > 5000 and price < 8000)
-
 ## Preparar ambiente
 
-Vamos utilizar Pyenv + Poetry, link de como preparar o ambiente abaixo:
+Foi utilizado Pyenv + Poetry, link de como preparar o ambiente abaixo:
 
 [poetry-documentation](https://github.com/nayannanara/poetry-documentation/blob/master/poetry-documentation.md)
 
